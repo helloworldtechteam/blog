@@ -1,80 +1,38 @@
-# Site settings 配置站点
-title: 'Hello-World Technology'
-description: '学到的不仅仅是技术'
-keyword: 'python, java, technology'
-url: '' # your host
+encoding: utf-8
 
-# if you don't need baseurl, you should leave this value blank.
-baseurl: ''
+# SEO相关信息
+title: TMaize Blog
+description: TMaize的个人博客
+keywords: TMaize,Blog,Java,Html,JavaScript
+author: TMaize
+footerText: 'Copyright © 2016 皖ICP备16016174号'
 
-# Navigation links
-nav:
-  home: '/'
-  tags: '/tags.html'
+# 域名配置,生成sitemap会用到，友链也会用到
+domainUrl: 'http://blog.tmaize.net'
+# 路径配置，静态资源404一般是这里不对
+# 直接域名访问设置为'',有如果是user.github.io/blog/访问的话设置为'/blog'
+baseUrl: ''
 
-# Footer
-footer:
-  since: 2019
+# 菜单
+menu:
+  - title: Home
+    url: /
+  - title: Categories
+    url: /pages/categories.html
+  - title: Search
+    url: /pages/search.html
+  - title: Links
+    url: /pages/links.html
+  - title: Chat
+    url: /pages/chat.html
+  - title: About
+    url: /pages/about.html
 
-# Author 配置博主信息
-author: 'Hello-World Technology Team'
-nickname: 'HW Tech'
-bio: '人生苦短，我用Python。'
-avatar: '/assets/img/profile.png'
+# 文章url前缀，固定格式，不要动
+permalink: /posts/:year/:month/:day/:title.html
 
-# Search
-search: true
-
-# Night mode
-nightMode: true
-
-# Comments 评论功能
-comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
-
-# MathJax 公式支持 by Ray-Eldath
-mathjax: true
-
-# Share
-social-share: true
-social-share-items: ['wechat', 'github']
-
-# theme color 主题皮肤
-theme-color: 'default'  # pink or default
-
-# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
-postPatterns: 'circuitBoard'
-
-# SNS settings 配置社交网站
-# url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
-sns:
-  weibo: '//weibo.com/lovecolcol'
-  juejin: '//juejin.im/user/57a6f434165abd006159b4cc'
-  instagram: '//www.instagram.com/steveliaocn'
-  github: '//github.com/kaeyleo'
-
-# Tags 设置标签
-recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
-
-# Build settings
-paginate: 6
-paginate_path: 'page:num'
-exclude: ['node_modules', 'dev', 'package.json', 'gulpfile.js', '.gitignore', 'README.md']
-
-# Markdown
-markdown: kramdown
-highlighter: rouge
 kramdown:
+  auto_ids: true
   input: GFM
 
-# RSS
-RSS: false
-
-# Permalink
-# See: https://github.com/kaeyleo/jekyll-theme-H2O/issues/35
-permalink: /:year/:month/:day/:title.html
-
-# Plugins
-plugins: [jekyll-paginate]
+exclude: ['CNAME', 'README.md', 'build-tool']
