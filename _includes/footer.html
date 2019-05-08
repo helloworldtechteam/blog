@@ -1,8 +1,11 @@
-<footer class="container footer">
-  <span>{{ site.footerText }}</span>
-  <a href="{{ site.baseUrl }}/sitemap.xml">网站地图</a>
-  <span>Theme From</span>
-  <!-- 请保留 -->
-  <a href="https://github.com/TMaize/tmaize-blog">tmaize-blog</a>
-  <div id="moveUp"></div>
+<footer class="g-footer">
+  <section>{{ site.title }} ©
+  {% assign current = "now" | date: "%Y" | plus: 0%}
+  {% unless site.footer.since and site.footer.since == current %}
+    {{ site.footer.since }}
+    -
+  {% endunless %}
+  {{ current }}
+  </section>
+  <section>Powered by <a href="//jekyllrb.com">Jekyll</a> | <a href="https://github.com/kaeyleo/jekyll-theme-H2O">Theme H2O</a></section>
 </footer>

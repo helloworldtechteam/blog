@@ -1,11 +1,13 @@
-<header class="container header select-none">
-  <img class="logo" src="{{ site.baseUrl }}/static/img/logo.jpg" />
-  <a class="title" href="{{ site.baseUrl }}/">{{ site.title }}</a>
-  <input type="checkbox" id="menu-checkbox">
-  <nav class="menu">
-    {% for menu in site.menu %}
-    <a href="{{ site.baseUrl }}{{ menu.url }}" class="hover-underline">{{ menu.title }}</a>
-    {% endfor %}
-  </nav>
-  <label class="menu-togger" for="menu-checkbox"></label>
+<header class="g-header">
+    <div class="g-logo">
+      <a href="{{ "/" | relative_url }}"></a>
+    </div>
+    <i id="menu-toggle" class="iconfont icon-menu"></i>
+    <nav class="g-nav">
+        <ul>
+            {% for i in site.nav %}
+            <li><a href="{{ i[1] }}">{{ i[0] }}</a></li>
+            {% endfor %}
+        </ul>
+    </nav>
 </header>

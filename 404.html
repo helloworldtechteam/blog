@@ -1,8 +1,16 @@
 ---
-layout: mypost
-title: 404错误
+layout: default
+description: "Sorry, Page Not Found :("
 ---
 
-<p>页面找不到了，可能是原始链接发生了更改~</p>
+{% include header.html %}
 
-<p>点击<a href="{{ site.baseUrl }}/">这里</a>回到首页浏览更多内容</p>
+<header class="g-banner np-banner {{ site.postPatterns | prepend: 'post-pattern-' }}" data-theme="{{ site.theme-color }}">
+    <div class="post-wrapper">
+        <h1>404</h1>
+        <span class="subheading">{{ page.description }}</span>
+        <a href="{{ site.nav.home }}" class="btn">Back to home</a>
+    </div>
+</header>
+
+
