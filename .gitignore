@@ -1,4 +1,3 @@
-_site
-.sass-cache
-Gemfile.lock
-*.gem
+/build-tool/dev
+/build-tool/dist
+/_site
