@@ -10,6 +10,7 @@ baseurl: ''
 # Navigation links
 nav:
   home: 'https://helloworldtech1024.github.io'
+  blog: '/'
   tags: '/tags.html'
 
 # Footer
