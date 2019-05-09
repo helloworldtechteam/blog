@@ -2,7 +2,7 @@
 title: 'Hello World Technology Blog'
 description: 'Hello World Technology 的团队博客，很多大佬会在这里分享他们的思想'
 keyword: 'Python, Java, Technology, Web, Education, Youth'
-url: 'http://www.hwtech.fun/' # your host
+url: 'http://blog.hwtech.fun/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
