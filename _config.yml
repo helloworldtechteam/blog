@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Hello World Technology Blog'
-description: '团队博客，很多大佬会在这里分享他们的思想'
+description: '团大佬分享的思想的地方'
 keyword: 'Python, Java, Technology, Web, Education, Youth'
 url: 'http://blog.hwtech.fun/' # your host
 
