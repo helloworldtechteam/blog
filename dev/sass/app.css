@@ -112,8 +112,8 @@ a {
           opacity: 1; }
   .g-header .nav-default a:hover {
     color: #1494FB !important; }
-  .g-header .nav-pink a:hover {
-    color: #FC6794 !important; }
+  .g-header .nav-gray a:hover {
+    color: rgb(100, 100, 100) !important; }
 
 .headerUp {
   top: -65px; }
@@ -156,17 +156,17 @@ a {
   background: -moz-linear-gradient(0deg, #3CD5FF, #007AFF);
   background: linear-gradient(100deg, #3CD5FF, #007AFF); }
 
-.banner-theme-pink {
-  background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-  background: linear-gradient(100deg, #FFCE69, #FA709A); }
+.banner-theme-gray {
+  background: -webkit-linear-gradient(0deg, rgb(100, 120, 130), rgb(100, 100, 100));
+  background: -o-linear-gradient(0deg, rgb(100, 120, 130) rgb(100, 100, 100));
+  background: -moz-linear-gradient(0deg, rgb(100, 120, 130), rgb(100, 100, 100));
+  background: linear-gradient(100deg, rgb(100, 120, 130), rgb(100, 100, 100)); }
 
 .themeColor-default {
   background-color: #1494FB; }
 
-.themeColor-pink {
-  background-color: #FC6794; }
+.themeColor-gray {
+  background-color: rgb(100, 100, 100); }
 
 .home-content {
   margin: 40px auto 60px; }
@@ -563,8 +563,8 @@ a {
 .bgcolor-default {
   background-color: #1494FB; }
 
-.bgcolor-pink {
-  background-color: #FC6794; }
+.bgcolor-gray {
+  background-color: rgb(100, 100, 100); }
 
 .post-no-cover {
   height: 360px; }
