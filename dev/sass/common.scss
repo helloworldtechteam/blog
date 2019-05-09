@@ -79,9 +79,9 @@
             color: $color-theme-default !important;
         }
     }
-    .nav-pink {
+    .nav-gray {
         a:hover {
-            color: $color-theme-pink !important;
+            color: $color-theme-gray !important;
         }
     }
 }
@@ -133,18 +133,18 @@
     background: -moz-linear-gradient(0deg, #3CD5FF, #007AFF);
     background: linear-gradient(100deg, #3CD5FF, #007AFF);
 }
-.banner-theme-pink {
-    background: -webkit-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: -o-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: -moz-linear-gradient(0deg, #FFCE69, #FA709A);
-    background: linear-gradient(100deg, #FFCE69, #FA709A);
+.banner-theme-gray {
+    background: -webkit-linear-gradient(0deg, rgb(111, 150, 156), rgba(92, 98, 102, 0.438));
+    background: -o-linear-gradient(0deg, rgb(111, 150, 156), rgba(92, 98, 102, 0.438));
+    background: -moz-linear-gradient(0deg,rgb(111, 150, 156), rgba(92, 98, 102, 0.438));
+    background: linear-gradient(100deg,rgb(111, 150, 156), rgba(92, 98, 102, 0.438));
 }
 
 .themeColor-default {
     background-color: $color-theme-default;
 }
-.themeColor-pink {
-    background-color: $color-theme-pink;
+.themeColor-gray {
+    background-color: $color-theme-gray;
 }
 
 .home-content {
@@ -466,8 +466,8 @@
 .bgcolor-default {
     background-color: $color-theme-default;
 }
-.bgcolor-pink {
-    background-color: $color-theme-pink;
+.bgcolor-gray {
+    background-color: $color-theme-gray;
 }
 
 .post-no-cover {
