@@ -1,6 +1,6 @@
 # Site settings 配置站点
 title: 'Hello World Technology Blog'
-description: '团大佬分享的思想的地方'
+description: '大佬分享的思想的地方'
 keyword: 'Python, Java, Technology, Web, Education, Youth'
 url: 'http://blog.hwtech.fun/' # your host
 
@@ -27,7 +27,7 @@ avatar: '/assets/img/avatar.jpg'
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments 评论功能
 comments:
