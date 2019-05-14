@@ -33,7 +33,7 @@ nightMode: false
 comments:
 #  disqus: false
 #  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
-  gitalk: true
+  gitalk: false
   gitalk_clientID: '2c2e6a07e63253497afc'
   gitalk_Secret: 'e2291c439763940a2829b0bdef134e4d6870930c'
   gitalk_repo: 'helloworldtechteam.github.io/blog'
