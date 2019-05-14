@@ -126,16 +126,6 @@
     });
   </script>
 
-  {% if site.comments.disqus %}
-  <script>
-    (function () { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '{{ site.comments.disqus_url }}';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-  </script>
-  {% endif %}
   <div id='gitalk-container'></div>
   <script>
     const gitalk = new Gitalk({
@@ -150,6 +140,18 @@
 
     gitalk.render('gitalk-container')
   </script>
+
+  {% if site.comments.disqus %}
+  <script>
+      (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '{{ site.comments.disqus_url }}';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+  </script>
+  {% endif %}
+
   <script src="/assets/js/prism.js"></script>
   <script src="/assets/js/index.min.js"></script>
 </body>
