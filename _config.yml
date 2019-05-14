@@ -31,8 +31,15 @@ nightMode: false
 
 # Comments 评论功能
 comments:
-  disqus: false
-  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+#  disqus: false
+#  disqus_url: 'https://liaokeyu.disqus.com/embed.js'
+  gitalk: true
+  gitalk_clientID: '2c2e6a07e63253497afc'
+  gitalk_Secret: 'e2291c439763940a2829b0bdef134e4d6870930c'
+  gitalk_repo: 'helloworldtechteam.github.io/blog'
+  gitalk_owner: 'helloworldtech1024'
+  gitalk_admin: 'helloworldtech1024'
+  distractionFreeMode: true
 
 # MathJax 公式支持 by Ray-Eldath
 mathjax: true
